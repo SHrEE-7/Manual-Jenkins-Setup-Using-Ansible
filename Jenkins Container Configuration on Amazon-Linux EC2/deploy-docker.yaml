@@ -27,11 +27,12 @@
       name: 
       - docker
       - docker-compose 
-
-  - name: Test docker pull
-    docker_image:
-      name: redis 
-      source: pull
+  
+  # Test 
+  # - name: Test docker pull
+  #   docker_image:
+  #     name: redis 
+  #     source: pull
 
   - name: Copy docker compose to Destination
     copy:
